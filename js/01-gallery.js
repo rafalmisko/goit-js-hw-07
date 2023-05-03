@@ -46,4 +46,4 @@ galleryPics.insertAdjacentHTML('afterbegin', mainGallery);
 
     }
 
-     galleryPic.addEventListener("click", showModalWindow);
+     galleryPics.addEventListener("click", showModalWindow);
