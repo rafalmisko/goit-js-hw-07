@@ -27,12 +27,13 @@ const mainGallery = galleryItems
 
 galleryPics.insertAdjacentHTML('afterbegin', mainGallery); 
 
-
+ 
     const showModalWindow = (event) => {
       event.preventDefault();
       if (event.target.nodeName !== 'IMG') {
         return;
       }
+      
       const instance = basicLightbox.create(`<img src="${event.target.dataset.source}" 
       width="800" height="600">`);
       instance.show();
@@ -46,4 +47,4 @@ galleryPics.insertAdjacentHTML('afterbegin', mainGallery);
 
     }
 
-     galleryPics.addEventListener("click", showModalWindow);
+    // galleryPics.addEventListener("click", showModalWindow);
