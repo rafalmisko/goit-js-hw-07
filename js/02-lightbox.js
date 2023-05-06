@@ -29,6 +29,6 @@ const newLightboxGallery = new SimpleLightbox('.gallery a', {
     canimationSpeed: 250,
     captionPosition: 'bottom',
 });
-galleryPics.addEventListener("click",lightbox); 
+//galleryPics.addEventListener("click",lightbox); 
 	 
  
